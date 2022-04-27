@@ -1,0 +1,12 @@
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\bin\Debug\net6.0\KatalogProduk.Domain.deps.json
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\bin\Debug\net6.0\KatalogProduk.Domain.dll
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\bin\Debug\net6.0\KatalogProduk.Domain.pdb
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\KatalogProduk.Domain.csproj.AssemblyReference.cache
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\KatalogProduk.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\KatalogProduk.Domain.AssemblyInfoInputs.cache
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\KatalogProduk.Domain.AssemblyInfo.cs
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\KatalogProduk.Domain.csproj.CoreCompileInputs.cache
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\KatalogProduk.Domain.dll
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\refint\KatalogProduk.Domain.dll
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\KatalogProduk.Domain.pdb
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Domain\obj\Debug\net6.0\ref\KatalogProduk.Domain.dll

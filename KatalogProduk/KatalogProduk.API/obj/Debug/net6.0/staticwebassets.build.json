@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5S3y0wLCxAfmLPRkRI60HmGy/keM3JzvAGAoqgg5lyc=",
+  "Source": "KatalogProduk.API",
+  "BasePath": "_content/KatalogProduk.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

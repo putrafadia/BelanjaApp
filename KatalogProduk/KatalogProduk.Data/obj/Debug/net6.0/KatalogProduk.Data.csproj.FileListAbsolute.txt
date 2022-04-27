@@ -1,0 +1,17 @@
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\bin\Debug\net6.0\KatalogProduk.Data.deps.json
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\bin\Debug\net6.0\KatalogProduk.Data.runtimeconfig.json
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\bin\Debug\net6.0\KatalogProduk.Data.dll
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\bin\Debug\net6.0\KatalogProduk.Data.pdb
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\bin\Debug\net6.0\KatalogProduk.Domain.dll
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\bin\Debug\net6.0\KatalogProduk.Domain.pdb
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.csproj.AssemblyReference.cache
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.AssemblyInfoInputs.cache
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.AssemblyInfo.cs
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.csproj.CoreCompileInputs.cache
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.csproj.CopyComplete
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.dll
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\refint\KatalogProduk.Data.dll
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.pdb
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\KatalogProduk.Data.genruntimeconfig.cache
+E:\belajar\.Net\KatalogProduk\KatalogProduk.Data\obj\Debug\net6.0\ref\KatalogProduk.Data.dll
