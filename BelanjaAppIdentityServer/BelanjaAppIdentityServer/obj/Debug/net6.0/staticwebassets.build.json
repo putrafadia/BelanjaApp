@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KUy4TITCu3SyI/mG4sMxICKsXdpBGLLjTF2QO6xzDgU=",
+  "Source": "BelanjaAppIdentityServer",
+  "BasePath": "_content/BelanjaAppIdentityServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
