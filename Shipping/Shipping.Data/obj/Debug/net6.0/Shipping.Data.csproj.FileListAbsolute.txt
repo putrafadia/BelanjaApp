@@ -1,0 +1,17 @@
+E:\sample c#\Shipping\Shipping.Data\bin\Debug\net6.0\Shipping.Data.deps.json
+E:\sample c#\Shipping\Shipping.Data\bin\Debug\net6.0\Shipping.Data.runtimeconfig.json
+E:\sample c#\Shipping\Shipping.Data\bin\Debug\net6.0\Shipping.Data.dll
+E:\sample c#\Shipping\Shipping.Data\bin\Debug\net6.0\Shipping.Data.pdb
+E:\sample c#\Shipping\Shipping.Data\bin\Debug\net6.0\Shipping.Domain.dll
+E:\sample c#\Shipping\Shipping.Data\bin\Debug\net6.0\Shipping.Domain.pdb
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.csproj.AssemblyReference.cache
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.AssemblyInfoInputs.cache
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.AssemblyInfo.cs
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.csproj.CoreCompileInputs.cache
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.csproj.CopyComplete
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.dll
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\refint\Shipping.Data.dll
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.pdb
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\Shipping.Data.genruntimeconfig.cache
+E:\sample c#\Shipping\Shipping.Data\obj\Debug\net6.0\ref\Shipping.Data.dll
