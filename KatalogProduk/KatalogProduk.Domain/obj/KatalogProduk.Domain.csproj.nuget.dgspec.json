@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\belajar\\.Net\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj": {}
+    "E:\\belajar\\.Net\\BelanjaApp\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj": {}
   },
   "projects": {
-    "E:\\belajar\\.Net\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj": {
+    "E:\\belajar\\.Net\\BelanjaApp\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\belajar\\.Net\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj",
+        "projectUniqueName": "E:\\belajar\\.Net\\BelanjaApp\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj",
         "projectName": "KatalogProduk.Domain",
-        "projectPath": "E:\\belajar\\.Net\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj",
+        "projectPath": "E:\\belajar\\.Net\\BelanjaApp\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj",
         "packagesPath": "C:\\Users\\ahmad saputra\\.nuget\\packages\\",
-        "outputPath": "E:\\belajar\\.Net\\KatalogProduk\\KatalogProduk.Domain\\obj\\",
+        "outputPath": "E:\\belajar\\.Net\\BelanjaApp\\KatalogProduk\\KatalogProduk.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmad saputra\\AppData\\Roaming\\NuGet\\NuGet.Config",

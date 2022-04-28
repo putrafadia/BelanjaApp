@@ -17,30 +17,74 @@ namespace KatalogProduk.Data
         {
             _context = context;
         }
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var deletePedang = await GetById(id);
+                _context.Categories.Remove(deletePedang);
+                await _context.SaveChangesAsync();
+
+            }
+            catch (DbUpdateConcurrencyException dbEx)
+            {
+                throw new Exception(dbEx.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         public async Task<IEnumerable<Category>> GetAll()
         {
-            var results = await _context.Categories.OrderBy(s => s.Name).AsNoTracking().ToListAsync();
+            var results = await _context.Categories.Include(p=>p.Produks).OrderBy(s => s.Name).AsNoTracking().ToListAsync();
             return results;
         }
 
-        public Task<Category> GetById(int id)
+        public async Task<Category> GetById(int id)
         {
-            throw new NotImplementedException();
+            var result = await _context.Categories.FirstOrDefaultAsync(s => s.Id == id);
+            if (result == null) throw new Exception($"Data Kategori id: {id} Tidak ditemukan");
+            return result;
         }
 
-        public Task<Category> Insert(Category obj)
+        public async Task<Category> Insert(Category obj)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                _context.Categories.Add(obj);
+                await _context.SaveChangesAsync();
+                return obj;
+            }
+            catch (DbUpdateConcurrencyException dbEx)
+            {
+                throw new Exception(dbEx.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
-        public Task<Category> Update(int id, Category obj)
+        public async Task<Category> Update(int id, Category obj)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var updateKategori = await GetById(id);
+                updateKategori.Name = obj.Name;
+                await _context.SaveChangesAsync();
+                return updateKategori;
+            }
+            catch (DbUpdateConcurrencyException dbEx)
+            {
+                throw new Exception(dbEx.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

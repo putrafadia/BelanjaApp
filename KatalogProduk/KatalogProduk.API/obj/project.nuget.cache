@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zr0O8B2fRKOCrJugv++6Yuc14dHIxDOnSvEaTifebC6lxGXfVLObiPRSoj48y1imcefNCr5n0VIewwUAAACvCQ==",
+  "dgSpecHash": "zhfndk0xTOATGbCGtC/n02q1o4u1+7qXCZeSs+vuD+H1+Q9Dvzn8FaTvp9ht1VCcjYwDzTr8OiLnTcXKN1XfFQ==",
   "success": true,
-  "projectFilePath": "E:\\belajar\\.Net\\KatalogProduk\\KatalogProduk.API\\KatalogProduk.API.csproj",
+  "projectFilePath": "E:\\belajar\\.Net\\BelanjaApp\\KatalogProduk\\KatalogProduk.API\\KatalogProduk.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmad saputra\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\ahmad saputra\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

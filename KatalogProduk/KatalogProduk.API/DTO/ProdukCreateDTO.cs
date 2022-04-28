@@ -3,6 +3,6 @@
     public class ProdukCreateDTO
     {
         public string Name { get; set; }
-        public int CategoryId { get; set; }
+        //public int CategoryId { get; set; }
     }
 }

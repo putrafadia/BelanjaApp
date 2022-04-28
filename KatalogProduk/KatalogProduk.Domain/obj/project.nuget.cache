@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pYDn3yiDoKH4tfIW8YQ9D8X5Y+Fj6LdciECoWCCMANyINm+PZtBwmP0b8HYC/a/QwEKW8yz5J0WUHsf0eJdZZA==",
+  "dgSpecHash": "tWr+9VU2lpYPG5n/Q3jkBvwlR2hJJgC+n9d4pl1117GytHIxQUPPggxPvU8wsLrw16Z7lImYkCUTSPUhjiT8lg==",
   "success": true,
-  "projectFilePath": "E:\\belajar\\.Net\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj",
+  "projectFilePath": "E:\\belajar\\.Net\\BelanjaApp\\KatalogProduk\\KatalogProduk.Domain\\KatalogProduk.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -30,17 +30,17 @@ namespace KatalogProduk.Data
             }
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Category>()
-            .HasMany(p=>p.Produks)
-            .WithOne(p=>p.Category)
-            .HasForeignKey(p=>p.CategoryId);
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Category>()
+        //    .HasMany(p=>p.Produks)
+        //    .WithOne(p=>p.Category)
+        //    .HasForeignKey(p=>p.CategoryId);
 
-            modelBuilder.Entity<Produk>()
-            .HasOne(c=>c.Category)
-            .WithMany(c=>c.Produks)
-            .HasForeignKey(c=>c.CategoryId);
-        }
+        //    modelBuilder.Entity<Produk>()
+        //    .HasOne(c=>c.Category)
+        //    .WithMany(c=>c.Produks)
+        //    .HasForeignKey(c=>c.CategoryId);
+        //}
     }
 }

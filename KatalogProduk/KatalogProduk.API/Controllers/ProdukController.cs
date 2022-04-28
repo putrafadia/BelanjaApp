@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace KatalogProduk.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/category/{categoryId}/[controller]")]
     [ApiController]
     public class ProdukController : ControllerBase
     {
@@ -47,14 +47,21 @@ namespace KatalogProduk.API.Controllers
 
         // POST api/<ProdukController>
         [HttpPost]
-        public async Task<ActionResult<ProdukCreateDTO>> Post(ProdukCreateDTO produkCreateDTO)
+        public async Task<ActionResult<ProdukCreateDTO>> Post(int categoryId, ProdukCreateDTO produkCreateDTO)
         {
             try
             {
-                var newProduk = _mapper.Map<Produk>(produkCreateDTO);
-                var result = await _produk.Insert(newProduk);
-                var samuraiDTO = _mapper.Map<ProdukDTO>(result);
-                return CreatedAtAction("GetById", new { id = result.Id }, samuraiDTO);
+                if (!_produk.CategoryExist(categoryId))
+                    return NotFound();
+
+                var produk = _mapper.Map<Produk>(produkCreateDTO);
+                var result = await _produk.CreateProduk(categoryId, produk);
+                var produkDto = _mapper.Map<ProdukDTO>(result);
+
+
+                return CreatedAtAction(nameof(GetById),
+                    new { categoryId = categoryId, produkId = produkDto.Id },
+                        produkDto);
 
             }
             catch (Exception ex)
@@ -65,15 +72,43 @@ namespace KatalogProduk.API.Controllers
         }
 
         // PUT api/<ProdukController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("{produkId}")]
+        public async Task<ActionResult<ProdukCreateDTO>> Put(int categoryId, int produkId, ProdukCreateDTO produkCreateDTO)
         {
+            try
+            {
+                if (!_produk.CategoryExist(categoryId))
+                    return NotFound();
+
+                var produk = _mapper.Map<Produk>(produkCreateDTO);
+                var result = await _produk.UpdateProduk(categoryId, produkId,produk);
+                var produkDto = _mapper.Map<ProdukDTO>(result);
+
+
+                return CreatedAtAction(nameof(GetById),
+                    new { categoryId = categoryId, produkId = produkDto.Id },
+                        produkDto);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // DELETE api/<ProdukController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{produkId}")]
+        public async Task<IActionResult> Delete(int categoryId, int produkId)
         {
+            try
+            {
+                await _produk.Delete(categoryId,produkId);
+                return Ok($"record deleted {produkId}");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
