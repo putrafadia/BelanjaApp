@@ -53,8 +53,8 @@ namespace KatalogProduk.API.Controllers
             {
                 var newSamurai = _mapper.Map<Category>(createCategoryDTO);
                 var result = await _category.Insert(newSamurai);
-                var samuraiDTO = _mapper.Map<CategoryDTO>(result);
-                return CreatedAtAction("GetById", new { id = result.Id }, samuraiDTO);
+                var categotyDTO = _mapper.Map<CategoryDTO>(result);
+                return CreatedAtAction("GetById", new { id = result.Id }, categotyDTO);
 
             }
             catch (Exception ex)
