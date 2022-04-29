@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using KatalogProduk.API.DTO;
+using KatalogProduk.API.SyncDataServices;
 using KatalogProduk.Data.Interface;
 using KatalogProduk.Domain;
 using Microsoft.AspNetCore.Mvc;
@@ -14,11 +15,13 @@ namespace KatalogProduk.API.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IProduk _produk;
+        private readonly IProdukDataClient _produkDataClient;
 
-        public ProdukController(IProduk produk, IMapper mapper)
+        public ProdukController(IProduk produk, IMapper mapper, IProdukDataClient produkDataClient )
         {
             _mapper = mapper;
             _produk = produk;
+            _produkDataClient =produkDataClient;
         }
         // GET: api/<ProdukController>
         [HttpGet]
@@ -49,26 +52,24 @@ namespace KatalogProduk.API.Controllers
         [HttpPost]
         public async Task<ActionResult<ProdukCreateDTO>> Post(int categoryId, ProdukCreateDTO produkCreateDTO)
         {
+
+            if (!_produk.CategoryExist(categoryId))
+                return NotFound();
+
+            var produk = _mapper.Map<Produk>(produkCreateDTO);
+            var result = await _produk.CreateProduk(categoryId, produk);
+            var produkDto = _mapper.Map<ProdukDTO>(result);
             try
             {
-                if (!_produk.CategoryExist(categoryId))
-                    return NotFound();
-
-                var produk = _mapper.Map<Produk>(produkCreateDTO);
-                var result = await _produk.CreateProduk(categoryId, produk);
-                var produkDto = _mapper.Map<ProdukDTO>(result);
-
-
-                return CreatedAtAction(nameof(GetById),
-                    new { categoryId = categoryId, produkId = produkDto.Id },
-                        produkDto);
-
+               await _produkDataClient.SendProdukToTransaksi(produkDto);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                Console.WriteLine($"--> Tidak dapat mengirimkan Sync Data: {ex.Message}");
             }
-
+            return CreatedAtAction(nameof(GetById),
+                   new { categoryId = categoryId, produkId = produkDto.Id },
+                       produkDto);
         }
 
         // PUT api/<ProdukController>/5

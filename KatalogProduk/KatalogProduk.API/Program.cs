@@ -1,6 +1,8 @@
+using KatalogProduk.API.SyncDataServices;
 using KatalogProduk.Data;
 using KatalogProduk.Data.Interface;
 using Microsoft.EntityFrameworkCore;
+using ServiceDataService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +20,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<ICategory,CategoryRepo>();
 builder.Services.AddScoped<IProduk, ProdukRepo>();
+builder.Services.AddHttpClient<IProdukDataClient, HttpProdukDataClient>();
 
 var app = builder.Build();
 
