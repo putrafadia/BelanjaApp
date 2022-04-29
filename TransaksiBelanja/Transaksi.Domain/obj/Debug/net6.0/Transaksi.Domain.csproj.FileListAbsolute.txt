@@ -1,0 +1,14 @@
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\bin\Debug\net6.0\Transaksi.Domain.deps.json
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\bin\Debug\net6.0\Transaksi.Domain.runtimeconfig.json
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\bin\Debug\net6.0\Transaksi.Domain.dll
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\bin\Debug\net6.0\Transaksi.Domain.pdb
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.csproj.AssemblyReference.cache
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.AssemblyInfoInputs.cache
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.AssemblyInfo.cs
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.csproj.CoreCompileInputs.cache
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.dll
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\refint\Transaksi.Domain.dll
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.pdb
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\Transaksi.Domain.genruntimeconfig.cache
+D:\LA23\AGIT\Mini Project\TransaksiBelanja\Transaksi.Domain\obj\Debug\net6.0\ref\Transaksi.Domain.dll
